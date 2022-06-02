@@ -33,6 +33,24 @@
   padding-bottom: 8px;
 }
 .box-vantagens img {
-  max-width: 700px;
-  border-radius: 8px;
+  width: calc(100% - 64px);
+  height: calc(100% - 64px);
+  object-fit: cover;
+  padding: 32px 32px 32px 32px;
+  background: linear-gradient(
+      100deg,
+      rgba(55, 52, 52, 0.25),
+      rgba(71, 71, 71, 0) 10.42%
+    ),
+    #252525;
+  border-radius: 12px;
+}
+
+@media (max-width: 800px) {
+  .vantagens {
+    grid-template-columns: 1fr;
+  }
+  .box-vantagens img {
+    display: none;
+  }
 }
