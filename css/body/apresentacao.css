@@ -1,0 +1,66 @@
+.apresentacao-bg {
+  background-color: #161616;
+}
+.apresentacao {
+  display: grid;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 96px;
+}
+.apresentacao h2 {
+  padding-top: 16px;
+  justify-self: center;
+  z-index: 1;
+}
+.apresentacao P {
+  justify-self: center;
+  z-index: 1;
+}
+.apresentacao-imagens {
+  display: flex;
+  gap: 40px;
+  padding: 0 20px 20px 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+  justify-content: center;
+}
+
+.apresentacao-imagens img {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.box h3 {
+  margin-top: 32px;
+}
+.icone-tattoo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.icone-tattoo div {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 24px 0 18px 0;
+  justify-items: center;
+}
+.icone-tattoo img {
+  max-width: 32px;
+}
+.descricao-menu {
+  color: transparent;
+  transition: 0.3s;
+}
+.descricao-menu:hover {
+  color: var(--cor-2);
+}
+
+@media (max-width: 1200px) {
+  .apresentacao-imagens {
+    justify-content: start;
+  }
+}

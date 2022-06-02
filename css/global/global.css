@@ -1,0 +1,10 @@
+a {
+  text-decoration: none;
+}
+/* .body-bg {
+  background: linear-gradient(154.55deg, #2a2a2a 9.52%, rgba(0, 0, 0, 0) 62.05%),
+    #161616;
+} */
+body {
+  padding-bottom: 600px;
+}

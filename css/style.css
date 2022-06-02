@@ -1,0 +1,14 @@
+/* Global */
+
+@import "./global/reset.css";
+@import "./global/global.css";
+@import "./global/tipografia.css";
+@import "./global/componentes.css";
+@import "./global/cores.css";
+
+/* Body */
+
+@import "./body/header.css";
+@import "./body/main.css";
+@import "./body/apresentacao.css";
+@import "./body/vantagens.css";

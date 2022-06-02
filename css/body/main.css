@@ -1,0 +1,39 @@
+.introducao-bg {
+  background: linear-gradient(154.55deg, #2a2a2a, rgba(0, 0, 0, 0) 30%), #161616;
+}
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  padding-bottom: 60px;
+  z-index: 1;
+}
+
+.introducao img {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  max-width: 650px;
+  z-index: -1;
+  opacity: 50%;
+}
+
+.introducao h1 {
+  max-width: 15ch;
+  min-width: 15ch;
+  margin-bottom: 32px;
+  margin-top: 128px;
+}
+
+.introducao a {
+  padding: 16px;
+  background-color: var(--cor-p1);
+  align-items: center;
+  grid-column: 1;
+  justify-self: flex-start;
+  border-radius: 4px;
+  margin-top: 32px;
+}
+
+.introducao p {
+  grid-column: 1;
+}

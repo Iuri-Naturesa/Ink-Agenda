@@ -1,0 +1,58 @@
+.header-bg {
+  background: linear-gradient(154.55deg, #2a2a2a, rgba(0, 0, 0, 0) 20%), #161616;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 2;
+}
+
+.header-sobre {
+  display: flex;
+  gap: 20px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-menu a {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu img {
+  max-width: 20px;
+}
+.teste {
+  padding: 8px 24px;
+  border: solid 2px #ffffff;
+  border-radius: 4px;
+}
+.pad {
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+.animacao-entrada {
+  position: relative;
+  padding-right: 24px;
+}
+.pad-inv {
+  position: absolute;
+  right: 12px;
+  transition: 0.3s;
+  padding-left: 64px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.pad-inv:hover {
+  right: 6px;
+}

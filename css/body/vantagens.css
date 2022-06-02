@@ -1,0 +1,38 @@
+.vantagens-bg {
+  background-color: var(--cor-bg);
+  padding-bottom: 200px;
+}
+.vantagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 256px;
+}
+.vantagens-descricao {
+  max-width: 15ch;
+  min-width: 15ch;
+}
+.vantagens-beneficios {
+  display: flex;
+  gap: 40px;
+}
+.vantagens-beneficios-a {
+  display: grid;
+  padding-top: 64px;
+}
+.vantagens-beneficios-a img {
+  max-width: 24px;
+  max-height: 24px;
+  padding: 8px;
+  background-color: var(--cor-0);
+  border-radius: 12px;
+}
+.vantagens-beneficios-b {
+  display: flex;
+  gap: 8px;
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+.box-vantagens img {
+  max-width: 700px;
+  border-radius: 8px;
+}
